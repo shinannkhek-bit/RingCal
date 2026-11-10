@@ -1,5 +1,9 @@
 # RingCal – calendar reminders that ring until you snooze
 
+Month, week and day views (weeks start Monday), light and dark mode. When an alarm rings
+with the phone locked you get a full-screen alarm; while you're using the phone you get a
+small popup over the current app. Both have Snooze and Dismiss.
+
 A small Android calendar app whose reminders behave like alarm clocks: the sound loops
 and the phone vibrates until you tap **Snooze** (5 min) or **Dismiss**. Works on the
 lock screen. Events can be imported from and exported to `.ics` files.
@@ -20,8 +24,8 @@ lock screen. Events can be imported from and exported to `.ics` files.
 
 ## First-time setup on the phone
 
-1. Open RingCal and tap **Fix this** repeatedly until it says "Alarm setup OK"
-   (notifications, exact alarms, full-screen alarms, battery optimisation).
+1. Open RingCal and tap **FIX** on the yellow banner until the banner disappears
+   (notifications, exact alarms, full-screen alarms, popup over other apps, battery optimisation).
 2. Honor-specific (important, or MagicOS may kill the app): open **Settings**, search
    **App launch**, find RingCal, switch it to **Manage manually**, and turn on
    Auto-launch, Secondary launch and Run in background.
